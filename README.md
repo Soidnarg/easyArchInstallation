@@ -258,15 +258,15 @@ Spazio di archiviazione: 50GB {
 
 `nano /etc/locale.conf`
 
-`_LANG=en_US.UTF-8_
-_LANG=it_IT.UTF-8_`
+`LANG=en_US.UTF-8
+LANG=it_IT.UTF-8`
 
 ---
 **tastiera in italiano di default:**
 
 `nano /etc/vconsole.conf`
 
-`_KEYMAP=it.map_`
+`KEYMAP=it.map`
 
 ---
 **creare hostname:**
@@ -274,7 +274,7 @@ _LANG=it_IT.UTF-8_`
 `nano /etc/hostname`
 
 
-`_virtualos_`
+`virtualos`
 
 
 **cambiare password root:**
