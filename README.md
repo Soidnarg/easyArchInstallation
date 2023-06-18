@@ -266,7 +266,7 @@ _LANG=it_IT.UTF-8_`
 
 `nano /etc/vconsole.conf`
 
-`_KEYMAP=it-map_`
+`_KEYMAP=it.map_`
 
 ---
 **creare hostname:**
