@@ -281,3 +281,17 @@ LANG=it_IT.UTF-8`
 
 `passwd`
 
+
+# Cose da aggiungere se non funzionano
+
+**DHCP**
+
+`nano /etc/systemd/network/20-wired.network`
+
+> [Match]  
+Name=enp1s0  
+[Network]  
+DHCP=yes  
+
+`systemctl restart systemd-networkd`
+`systemctl restart systemd-resolved`
