@@ -154,7 +154,7 @@ Spazio di archiviazione: 50GB {
 
 `t`
 
-`2`
+`3`
 
 `83`
 
@@ -225,9 +225,9 @@ Spazio di archiviazione: 50GB {
 
 `pacman -S grub`
 
-**UEFI only:** `grub-install -target=x86_64-efi -efi-directory=/boot/efi -bootloader-id=GRUB`
+**UEFI only:** `grub-install --target=x86_64-efi -efi-directory=/boot/efi -bootloader-id=GRUB`
 
-**MBR only:** `grub-install -target=i386-pc /dev/sda`
+**MBR only:** `grub-install --target=i386-pc /dev/sda`
 
 **crea file di configurazione grub:**
 
